@@ -10,6 +10,19 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+
+  /* Custom text gradient utility */
+  .text-gradient-stripe {
+    background-image: linear-gradient(
+      to right,
+      theme("colors.rbc.text-gradient-start"),
+      theme("colors.rbc.text-gradient-middle"),
+      theme("colors.rbc.text-gradient-end")
+    );
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
 }
 
 @layer base {
