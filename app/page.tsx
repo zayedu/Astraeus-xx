@@ -1,7 +1,7 @@
-"use client"
+import App from "../src/App"
 
-import { ThemeProvider } from "../components/theme-provider"
-
-export default function SyntheticV0PageForDeployment() {
-  return <ThemeProvider />
+const Page = () => {
+  return <App />
 }
+
+export default Page

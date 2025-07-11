@@ -47,10 +47,6 @@ input:focus-visible {
   backdrop-filter: blur(16px);
 }
 
-.backdrop-blur-2xl {
-  backdrop-filter: blur(24px); /* Increased blur for "way cooler" effect */
-}
-
 /* Prose styles for markdown */
 .prose {
   color: inherit;
@@ -104,5 +100,3 @@ input:focus-visible {
   background-size: 200px;
   animation: shimmer 2s infinite linear;
 }
-
-/* No specific App.css content, main styles are in index.css */

@@ -51,13 +51,3 @@ export const streamInsights = async (
     throw error
   }
 }
-
-// Placeholder for API services
-export const fetchChatResponse = async (message: string): Promise<string> => {
-  // Simulate API call
-  return new Promise((resolve) => {
-    setTimeout(() => {
-      resolve(`Echo: ${message}`)
-    }, 500)
-  })
-}
